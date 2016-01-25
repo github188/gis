@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+/* CSS Document */
+.clear {
+	clear: both;
+}
+
+.icon {
+	width: 130px;
+	height: 315px;
+	position: absolute;
+	right: 0;
+	bottom: 40%;
+	z-index: 5000;
+}
+
+.icon_mini {
+	position: absolute;
+	width: 22px;
+	height: 315px;
+	right: 0;
+	z-index: 5000;
+	bottom: 40%;
+}
+
+.icon .hide_button {
+	width: 22px;
+	height: 111px;
+	float: left;
+}
+
+.icon .icon_body {
+	width: 108px;
+	height: 315px;
+	float: left;
+	background: url(img/icon_body.png) no-repeat;
+}
+
+.editeDiv {
+	position: absolute;
+	right: 128;
+	z-index: 5000;
+	background: url(img/edite_bg.png) no-repeat;
+	top: 68px;
+	height: 59;
+	width: 125;
+}
+
+.flowSpan {
+	padding-top: 1px;
+	position: absolute;
+	text-align: center;
+	border: 1px solid #8B8B8B;
+	background: #F1F0F6;
+	left: 68;
+	z-index: 5000;
+	top: 32px;
+	height: 20;
+	width: 80;
+}
+
+.upAndDown {
+	position: absolute;
+	width: 44px;
+	height: 32px;
+	bottom: 0px;
+	right: 25%;
+	left: 50%;
+	margin-left: -100px;
+	z-index: 9999;
+}
+
+.upAndDown .down {
+	width: 44px;
+	height: 32px;
+	float: left;
+	background: url(img/bottom.png);
+}
+
+.upAndDown .down:hover {
+	width: 44px;
+	height: 32px;
+	float: left;
+	background: url(img/bottom_hover.png);
+}
+
+.upAndDown .up {
+	width: 44px;
+	height: 32px;
+	float: right;
+	background: url(img/top.png);
+}
+
+.upAndDown .up:hover {
+	width: 44px;
+	height: 32px;
+	float: left;
+	background: url(img/top_hover.png);
+}
+
+.leftAndRight {
+	position: absolute;
+	width: 32px;
+	height: 44px;
+	top: 50%;
+	margin-top: -9px;
+	left: auto;
+	right: 0;
+	z-index: 9999;
+}
+
+.leftAndRight .left {
+	width: 32px;
+	height: 44px;
+	float: right;
+	background: url(img/left.png);
+}
+
+.leftAndRight .left:hover {
+	width: 32px;
+	height: 44px;
+	float: left;
+	background: url(img/left_hover.png);
+}
+
+.leftAndRight .right {
+	width: 32px;
+	height: 44px;
+	float: right;
+	background: url(img/right.png);
+}
+
+.leftAndRight .right:hover {
+	width: 32px;
+	height: 44px;
+	float: left;
+	background: url(img/right_hover.png);
+}
+
+.btnPanel {
+	width:700px; 
+	left:50%; 
+	margin-left:-350px; 
+	top: 32px; 
+	z-index: 5000; 
+	position: absolute;
+	display: none;
+}
+
+.btnPanel input {
+	width: 36px;
+	height: 36px;
+	border-width: 0px 0px 0px 0px;
+	margin-top: 4px;
+	cursor: pointer;
+}
+
+.panelSpan {
+	background: url(img/panelSpan_Bg.png) no-repeat;
+	width: 44px;
+	margin-left: 13px;
+}
+
+.panelSpanActivate {
+	background: url(img/panelSpan_Bg_Activate.png) no-repeat;
+	width: 44px;
+	margin-left: 13px;
+}
+
+.btn_hospital {
+	background: url(img/btn_hospital.png);
+	margin-left: -9px;
+}
+
+.btn_hospital_hover {
+	background: url(img/btn_hospital_hover.png);
+	margin-left: -9px;
+}
+
+.btn_trafficPolice {
+	background: url(img/btn_trafficPolice.png);
+	margin-left: -8px;
+}
+
+.btn_trafficPolice_hover {
+	background: url(img/btn_trafficPolice_hover.png);
+	margin-left: -8px;
+}
+
+.btn_fireFighting {
+	background: url(img/btn_fireFighting.png);
+	margin-left: -8px;
+}
+
+.btn_fireFighting_hover {
+	background: url(img/btn_fireFighting_hover.png);
+	margin-left: -8px;
+}
+
+.btn_luZheng {
+	background: url(img/btn_luZheng.png);
+	margin-left: -9px;
+}
+
+.btn_luZheng_hover {
+	background: url(img/btn_luZheng_hover.png);
+	margin-left: -9px;
+}
+
+.btn_infoBoard {
+	background: url(img/btn_infoBoard.png);
+	margin-left: -9px;
+}
+
+.btn_infoBoard_hover {
+	background: url(img/btn_infoBoard_hover.png);
+	margin-left: -9px;
+}
+
+.btn_tollStation {
+	background: url(img/btn_tollStation.png);
+	margin-left: -8px;
+}
+
+.btn_tollStation_hover {
+	background: url(img/btn_tollStation_hover.png);
+	margin-left: -8px;
+}
+
+.btn_trafficControl {
+	background: url(img/btn_trafficControl.png);
+	margin-left: -9px;
+}
+
+.btn_trafficControl_hover {
+	background: url(img/btn_trafficControl_hover.png);
+	margin-left: -9px;
+}
+
+.btn_resourceScheduling {
+	background: url(img/btn_resourceScheduling.png);
+	margin-left: -9px;
+}
+
+.btn_resourceScheduling_hover {
+	background: url(img/btn_resourceScheduling_hover.png);
+	margin-left: -9px;
+}
+
+.btn_msgSend {
+	background: url(img/btn_msgSend.png);
+	margin-left: -9px;
+}
+
+.btn_msgSend_hover {
+	background: url(img/btn_msgSend_hover.png);
+	margin-left: -9px;
+}
+
+.btn_liuliang {
+	background: url(img/liuliangjiankong.png);
+	margin-left: -9px;
+}
+
+.btn_liuliang_hover {
+	background: url(img/liuliangjiankong_hover.png);
+	margin-left: -9px;
+}
+
+.topvisable {
+	background: url(img/liuliangjiankong_hide.png);
+	width: 15px;
+	height: 10px;
+}
+
+.top_function {
+	float: left;
+	width: 70px;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.top_function_switch {
+	width:15px;
+	left:50%;
+	margin-left:-7px;
+	margin-top:5px;
+	z-index:5000;
+	position:absolute;
+}
